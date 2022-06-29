@@ -1,5 +1,48 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	width: 100vw;
+}
+
+header {
+	text-align: center;
+}
+nav > a {
+	background-color: lightgray;
+	padding: 0 10px 0 10px;
+}
+
+#featured-property {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+figure,
+img,
+p {
+	align-self: center;
+	text-align: center;
+}
+figcaption {
+	font-size: 12px;
+}
+
+#featured-property > p {
+	width: 800px;
+	padding-top: 10px;
+}
+
+#details {
+	width: 100vw;
+	display: flex;
+}
+
+#details > div {
+	width: 25vw;
+	background-color: red;
+	text-align: center;
+	justify-content: space-between;
 }
